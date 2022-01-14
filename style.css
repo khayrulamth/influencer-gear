@@ -1,0 +1,63 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* max-width: 1200px; */
+}
+main{
+    margin: 0 2rem;
+}
+
+.hero-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info-container h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.img-container img{
+    width: 100%;
+    margin-left: 1rem;
+    
+}
+p{
+    line-height: 1.5rem;
+}
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    
+}
+.product{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product-details{
+    padding: 15px;
+}
+
+
+/* --------------brand color and style ------------------ */
+
+.brand-button {
+    color: white;
+    background: #02B290;
+    border:none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.gap{
+    margin: 2vh 0;
+}
+/* --------------brand color and style ------------------ */
