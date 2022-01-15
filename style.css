@@ -32,6 +32,9 @@ section{
     order: 1;
 
 }
+.info-container  button{
+    margin-top: 1rem;
+}
 hr.line{
     border: 1px solid #02B290;
 }
